@@ -11,6 +11,8 @@ Esse é o mesmo código que eu tenho, porém em outra linguagem diferente. Caso 
 # Algoritimo 
 
 
+
+
 *ENTRADA*
 
 1. Diametro do Pistão
@@ -21,7 +23,11 @@ Esse é o mesmo código que eu tenho, porém em outra linguagem diferente. Caso 
 6. Taxa de Compressão Desejada
 
 
+
+
 *PROCESSAMENTO*
+
+
 
 1. Fazer os Calculos
 
@@ -44,12 +50,18 @@ Rebaixamento do Cabeçote =  (Valor da Camera Atual Corrigida - Valor da Camera 
 
 
 
+
+
 *SAIDA:*
+
+
 
 1. Cilindrada
 2. Taxa de Compressão Atual
 3. Taxa da Compressão Desejada
 4. Valor de Rebaixamento do Cabeçote
+
+
 
 
 
@@ -59,6 +71,8 @@ Rebaixamento do Cabeçote =  (Valor da Camera Atual Corrigida - Valor da Camera 
 1. Capturar os Dados de Entrada
 2. Fazer o Calculo do Processamento de Dados
 3. Printar a Saida na Tela
+
+
 
 
 # Conclusão
