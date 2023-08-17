@@ -10,9 +10,6 @@ Esse é o mesmo código que eu tenho, porém em outra linguagem diferente. Caso 
 
 # Algoritimo 
 
-
-
-
 *ENTRADA*
 
 1. Diametro do Pistão
@@ -23,14 +20,9 @@ Esse é o mesmo código que eu tenho, porém em outra linguagem diferente. Caso 
 6. Taxa de Compressão Desejada
 
 
-
-
 *PROCESSAMENTO*
 
-
-
 1. Fazer os Calculos
-
 
 Ex:
 
@@ -49,11 +41,7 @@ Valor da Camera Desejada Corrigida = Raiz Cúbica do Volume da Camera Desejada
 Rebaixamento do Cabeçote =  (Valor da Camera Atual Corrigida - Valor da Camera Desejada Corrigida) * 10 - Espessura da Junta do Cabeçote
 
 
-
-
-
 *SAIDA:*
-
 
 
 1. Cilindrada
@@ -62,17 +50,12 @@ Rebaixamento do Cabeçote =  (Valor da Camera Atual Corrigida - Valor da Camera 
 4. Valor de Rebaixamento do Cabeçote
 
 
-
-
-
 *ALGORITIMO:*
 
 
 1. Capturar os Dados de Entrada
 2. Fazer o Calculo do Processamento de Dados
 3. Printar a Saida na Tela
-
-
 
 
 # Conclusão
