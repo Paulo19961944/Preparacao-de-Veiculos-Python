@@ -9,13 +9,17 @@ txDesejada = float(input("Digite a Taxa de Compressão Desejada: ").replace(",",
 
 # Faz o Calculo
 raioPistao = diametroPistao / 2
-volumePistao = raioPistao ** 2 * cursoPistao * 3.14159 / 1000
+areaPistao = raioPistao **2 * 3.141592
+volJunta = areaPistao * mmCabecote / 1000
+volumePistao = raioPistao ** 2 * cursoPistao * 3.141592 / 1000
 Cil = volumePistao * nCil
-volCamDesejado = volumePistao / (txDesejada - 1)
-volCamAtual = volumePistao / (txAtual - 1)
+volMortoDesejado = volumePistao / (txDesejada - 1)
+volMortoAtual = volumePistao / (txAtual - 1)
+volCamAtual = volMortoAtual - volJunta
+volCamDesejado = volMortoDesejado - volJunta
 volCamAtualCorr = volCamAtual ** (1/3)
 volCamDesejadoCorr = volCamDesejado ** (1/3)
-rebaixarCabecote = (volCamAtualCorr - volCamDesejadoCorr) * 10 - mmCabecote
+rebaixarCabecote = (volCamAtualCorr - volCamDesejadoCorr) * 10
 
 # Printa na Tela
 print("\n ***************** RESULTADO ***************** \n")
